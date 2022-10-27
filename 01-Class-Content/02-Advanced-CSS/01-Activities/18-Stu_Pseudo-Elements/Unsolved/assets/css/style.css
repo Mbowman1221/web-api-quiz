@@ -71,6 +71,24 @@ aside h2 {
   font-size: 150%;
 }
 
+span[data-description] {
+  position: relative;
+  text-decoration: underline;
+  color: blue;
+  cursor: grab;
+}
+
+span[data-description]:hover::after {
+  content: attr(data-description);
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  min-width: 200px;
+  font-size: 80%;
+  background-color: aquamarine;
+  padding: 12px;
+}
+
 input,
 button {
   width: 100%;
