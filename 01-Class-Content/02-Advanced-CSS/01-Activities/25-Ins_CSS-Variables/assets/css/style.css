@@ -1,8 +1,8 @@
 /* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
 :root {
   /* declare a variable with `--` syntax */
-  --dark: #13293d;
-  --light: #fff;
+  --charcoal: #13293d;
+  --white-color: #f2f2f2;
   --navlink-color: #b9c6ae;
 }
 
@@ -18,8 +18,8 @@ header {
   align-items: center;
   padding: 1%;
   /* use CSS var() function to reference a variable created above */
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: var(--charcoal);
+  color: var(--white-color);
 }
 
 h1 {
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--light);
+  color: var(--white-color);
 }
 
 main {
@@ -62,8 +62,8 @@ main {
 }
 
 article {
-  /* If we were to change the value of `--dark`, then all references to it would change automatically */
-  border-bottom: 1px solid var(--dark);
+  /* If we were to change the value of `--charcoal`, then all references to it would change automatically */
+  border-bottom: 1px solid var(--charcoal);
 }
 
 article p {
@@ -81,8 +81,8 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: var(--charcoal);
+  color: var(--white-color);
 }
 
 @media screen and (max-width: 768px) {

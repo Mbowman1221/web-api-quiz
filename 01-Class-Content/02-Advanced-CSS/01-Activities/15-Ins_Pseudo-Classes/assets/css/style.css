@@ -14,7 +14,6 @@ button {
 }
 
 /* The user's cursor is positioned over the element */
-
 button:hover {
   background-color: #772014;
   color: #fff;
