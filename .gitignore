@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 .DS_Store
-=======
 # Logs
 logs
 *.log
@@ -76,4 +74,3 @@ yarn.lock
 
 # React practice app
 00-practice-app
->>>>>>> main
