@@ -3,3 +3,17 @@ var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
 var star = "polaris";
 
 // WRITE YOUR CODE BELOW
+
+
+constellations.push(star);
+
+console.log(constellations)
+
+
+
+
+
+var starUpper = star.toUpperCase();
+
+console.log(starUpper);
+console.log(star);

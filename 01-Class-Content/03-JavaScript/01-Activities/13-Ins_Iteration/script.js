@@ -1,5 +1,5 @@
 // We use a for-loop to execute code more than once
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 100; i++) {
     // This is the block of code that will run each time
     console.log("This is the current value of i: " + i + ".");
 }
@@ -11,3 +11,9 @@ var zooAnimals = ["Bears", "Giraffes", "Penguins", "Meerkats"];
 for (var i = 0; i < zooAnimals.length; i++) { 
     console.log("I am going to zoo to see " + zooAnimals[i] + ".");
 }
+
+
+for (var animalIndex = 0; animalIndex < zooAnimals.length; animalIndex++) { 
+    console.log("I am going to zoo to see " + zooAnimals[animalIndex] + ".");
+}
+

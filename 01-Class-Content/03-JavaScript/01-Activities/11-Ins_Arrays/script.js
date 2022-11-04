@@ -3,11 +3,16 @@ var name = "Andre";
 var pets = 3; 
 var isStudent = true;
 
+var myNewArray = [];
+
+var anotherArray = new Array();
+
 // To store groups of data in a single variable, we use arrays
 var names = ["Andre", "Karl", "Rashida", "Olivia"];
 
 // The entire array can be accessed by using the array's name 
 console.log(names);
+
 
 // To log a single element, we use the name of the array with the index in brackets
 console.log(names[1]); 
@@ -20,7 +25,7 @@ console.log(names[0]);
 console.log(names[3]);
 
 //Replaces "Olivia" with "Carter"
-names[3] = "Carter"; 
+names[3] = "Whatever Name"; 
 
 // Logs "Carter"
 console.log(names[3]);
