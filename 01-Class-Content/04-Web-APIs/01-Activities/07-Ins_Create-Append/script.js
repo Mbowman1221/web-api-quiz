@@ -6,12 +6,15 @@ if (tagName !== "h1" && tagName !== "h2" && tagName !== "p" && tagName !== "div"
 } else {
   // Creates element based on tag entered by user
   var tag = document.createElement(tagName);
+  
+  console.log(tag);
 
   // Adds text content to created tag
   tag.textContent = "This was made via prompts. It's a " + tagName + ".";
-  
+  var sectionTag = document.querySelector('section');
+  console.log(sectionTag);
   // Appends tag as child of document body
-  document.body.appendChild(tag);
+  sectionTag.appendChild(tag);
 }
 
 var nextTag = confirm("Would you like to add another tag?");

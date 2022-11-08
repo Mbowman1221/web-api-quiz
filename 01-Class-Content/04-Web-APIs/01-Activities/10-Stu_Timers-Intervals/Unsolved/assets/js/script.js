@@ -13,7 +13,7 @@ function countdown() {
     //
     // YOUR CODE HERE
     //
-  });
+  }, 1000);
 }
 
 // Displays the message one word at a time

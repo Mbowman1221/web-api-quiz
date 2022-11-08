@@ -20,7 +20,12 @@
 
 // Loops through divTags to set each one to have the color blue and the font size of 30px
 for (var i = 0; i < divTags.length; i++) {
-  divTags[i].setAttribute("style", "color:blue; font-size: 30px");
+  // divTags[i].setAttribute("style", "color:blue; font-size: 30px");
+    // divTags[i].style.color = "blue";
+    // divTags[i].style.fontSize = "30px";
  }
+
+
+ pTags[0].setAttribute('foo', "bar");
 
  

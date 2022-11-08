@@ -1,6 +1,7 @@
 // Objects can store more than primitive data types like strings, booleans and numbers
 var planet = {
   name: "Earth",
+  waterPlanet: true,
   age: "4.543 billion years",
   moons: 1,
   isPopulated: true,
@@ -13,6 +14,9 @@ var planet = {
   },
   showWarning: function () {
     console.log("Space junk falls into Earth's atmosphere at a rate of about one a day.");
+  },
+  rotation: function () {
+    return '24 hours';
   }
 };
 
@@ -22,8 +26,11 @@ console.log(planet.neighboringPlanets[0]);
 
 // Logs "Mars" using bracket notation
 console.log(planet["neighboringPlanets"][0]);
+console.log(planet["neighboringPlanets"][1]);
 
 // To call a method, use the name of the object and the key. Don't forget the ()!
 planet.tellFunFact();
 planet.showWarning();
+
+console.log(planet.rotation());
   

@@ -19,9 +19,9 @@ function catMessage() {
   shelter.apptMessage;
 }
 
-if (shelter.dogs.includes(chosenPet)) {
+if (dogs.includes(chosenPet)) {
   dogMessage();
-} else if (shelter.cats.includes(chosenPet)) {
+} else if (cats.includes(chosenPet)) {
   catMessage();
 } else {
   console.log("It looks like the pet is not available.");

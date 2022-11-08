@@ -21,6 +21,7 @@ var investor = {
     initialInvestment: 5000,
     investmentGrowth: function() {
       console.log(this)
+      console.log(this.initialInvestment * 1.15)
     }
    }   
 };

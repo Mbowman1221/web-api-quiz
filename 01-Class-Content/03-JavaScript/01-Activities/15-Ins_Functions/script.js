@@ -14,16 +14,18 @@ var expressHello = function() {
   return;
 };
 
-// Functions must be called to execute
+// Functions must be called to execute or invoked
 declareHello(); 
 expressHello();
+
 
 //Functions can be called again to make the block of code execute again
 declareHello(); 
 
+
 // Functions can take parameters.
 // Parameters give a name to the data to be passed into the function
-function declareHelloAgain(x,y,z) { 
+function declareHelloAgain(x, y, z, a) { 
   console.log("Hello, my parameter's values are " + x + ", " + y + ", and " + z);
   console.log("-----------------------------------");
   return;
@@ -31,4 +33,4 @@ function declareHelloAgain(x,y,z) {
 
 // Function arguments give parameters their values
 // Here the parameter x is given the value 7 when the function is called
-declareHelloAgain(7, "Hello", true);
+declareHelloAgain(7, "Hello", true, 'OneMore');

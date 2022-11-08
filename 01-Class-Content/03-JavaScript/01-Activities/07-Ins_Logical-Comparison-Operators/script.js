@@ -11,14 +11,29 @@ console.log(a * b);
 // Modulus returns the remainder between two numbers.  
 console.log(a % b);
 
+console.log('(a % b) === 0 :', (a % b) === 0);
+
+if ((a % b) === 0) {
+    // run this code
+}
+
+console.log('25 % 2', 25 % 2);
+
+if (25 % 2 === 0) {
+    // The number is even
+}
+
+
+
 // Comparison operators combine with strings, booleans and numbers to form an expression that evaluates to true or false
 // Compares equality
 
-console.log(b == c);
-console.log(b != c);
+console.log("b == c: ", b == c);
+console.log("b === c: ", b === c);
+console.log("b != c:", b != c);
 
 // Compares equality and type (strict equality)
-console.log(b === c);
+console.log("b === c: ", b === c);
 console.log(b !== c);
 
 // Greater than or less than
@@ -33,18 +48,23 @@ console.log(a >= b);
 var expression1 = (b == c);
 var expression2 = (a > b);
 
+
+if (expression2 === true) {
+    // run this code
+}
+
 // Evaluates to true if expression1 AND expression2 are both true, otherwise false
 
-console.log(expression1 && expression2);
+console.log("expression1 && expression2: ", expression1 && expression2);
 
 // Evaluates to true if expression1 OR expression2 is true, otherwise false
 
-console.log(expression1 || expression2);
+console.log("expression1 || expression2: ", expression1 || expression2);
 
 // Logical Not (!) turns an expression that evaluates to true to false and vice versa
 // Returns true
 
-console.log(expression2);
+console.log("expression2: ", expression2);
 
 // Returns false
-console.log(!expression2);
+console.log("!expression2: ", !expression2);

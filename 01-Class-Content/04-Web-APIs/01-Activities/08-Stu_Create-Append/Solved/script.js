@@ -13,6 +13,7 @@ var li2 = document.createElement("li");
 var li3 = document.createElement("li");
 var li4 = document.createElement("li");
 
+body.appendChild(favoriteEl);
 h1El.textContent = "Welcome to my page";
 kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
@@ -28,16 +29,14 @@ body.appendChild(infoEl);
 infoEl.appendChild(imgEl);
 infoEl.appendChild(kittenEl);
 infoEl.appendChild(nameEl);
-body.appendChild(favoriteEl);
 favoriteEl.appendChild(listEl);
 // Append ordered list 
 favoriteEl.appendChild(listEl);
 // Append list items to ordered list element 
-listEl.append(li1, li2, li3, li4)
-// listEl.appendChild(li1);
-// listEl.appendChild(li2);
-// listEl.appendChild(li3);
-// listEl.appendChild(li4);
+listEl.appendChild(li1);
+listEl.appendChild(li2);
+listEl.appendChild(li3);
+listEl.appendChild(li4);
 
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 infoEl.setAttribute("style", "margin:auto; width:50%; text-align:center;");

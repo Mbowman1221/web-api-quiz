@@ -1,5 +1,6 @@
 // TODO: What does 'this' refer to?
 "use strict"
+console.log(this);
 
 // TODO: What does 'this' refer to?
 function helloThis() { 
